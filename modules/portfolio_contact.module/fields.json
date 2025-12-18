@@ -1,0 +1,42 @@
+[ {
+  "id" : "62e540a1-c45e-b026-00ae-b6531848b9c0",
+  "name" : "email_address",
+  "label" : "Email Address",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "12230123-1dc5-c9ee-c700-b4997d636436",
+  "name" : "github_link",
+  "label" : "Github URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "FILE", "CONTENT", "BLOG", "PAYMENT", "EMAIL_ADDRESS", "PHONE_NUMBER" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "e7d018fe-aa6f-7a33-a87d-ca3e81e6aa85",
+  "name" : "headline",
+  "label" : "Headline",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "ae57578e-2165-4572-f221-753327d14ffe",
+  "name" : "copyright_name",
+  "label" : "Copyright Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+} ]

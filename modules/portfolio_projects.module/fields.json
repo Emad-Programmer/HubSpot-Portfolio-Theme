@@ -1,0 +1,54 @@
+[ {
+  "id" : "b134a2b3-1c34-d812-10ba-7a17d2f38f40",
+  "name" : "projects",
+  "label" : "projects",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "78f6ef12-0156-959f-362c-2c886cfdecbb",
+    "name" : "project_title",
+    "label" : "Project Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "9acf6352-caa0-89be-4377-9c6cbb1223e9",
+    "name" : "project_description",
+    "label" : "Project Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "display_width" : null
+  }, {
+    "id" : "45dc9575-96ff-4ad0-274e-d2732959e364",
+    "name" : "project_image",
+    "label" : "Project Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

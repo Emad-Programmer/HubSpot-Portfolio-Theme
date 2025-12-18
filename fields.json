@@ -1,0 +1,14 @@
+[
+  {
+    "name": "brand_identity",
+    "label": "Brand Identity",
+    "type": "group",
+    "children": [
+      { "name": "primary_color", "label": "Primary Brand Color", "type": "color", "default": "#2d3436" },
+      { "name": "accent_color", "label": "Accent Color", "type": "color", "default": "#6c5ce7" },
+      { "name": "text_color", "label": "Global Text Color", "type": "color", "default": "#2d3436" },
+      { "name": "link_color", "label": "Link/Social Color", "type": "color", "default": "#6c5ce7" },
+      { "name": "footer_bg", "label": "Footer Background Color", "type": "color", "default": "#ffffff" }
+    ]
+  }
+]

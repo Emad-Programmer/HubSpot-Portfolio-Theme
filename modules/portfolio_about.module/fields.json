@@ -1,0 +1,35 @@
+[ {
+  "id" : "55bb7289-8cc3-5f0b-2528-775fe7bb2b06",
+  "name" : "profile_image",
+  "label" : "Profile Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "018edb59-732f-e844-f2ee-72c1ec1a512e",
+  "name" : "bio_content",
+  "label" : "Bio Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+}, {
+  "id" : "c3dbe439-1433-d712-9f30-707eddccec4b",
+  "name" : "tagline",
+  "label" : "Small Tagline",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+} ]

@@ -1,0 +1,39 @@
+[ {
+  "id" : "d927764e-8d67-64bf-ab0d-34fc3eb04e06",
+  "name" : "skills",
+  "label" : "skills",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "3f60d1c2-f8f6-ad01-9f57-ad512b0a34f4",
+    "name" : "skill_name",
+    "label" : "Skill Name",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "607d3780-7ed4-afee-2449-9303246c2bf8",
+    "name" : "skill_level",
+    "label" : "Confidence Level",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "type" : "number",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

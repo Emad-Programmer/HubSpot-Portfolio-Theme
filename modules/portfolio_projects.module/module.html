@@ -1,0 +1,17 @@
+<section class="container">
+  <h2 style="text-align: center;">Featured Projects</h2>
+  
+  <div class="project-grid">
+    {% for p in module.projects %}
+      <div class="project-card">
+        {% if p.project_image.src %}
+          <img src="{{ p.project_image.src }}" alt="{{ p.project_title }}">
+        {% endif %}
+        <div class="project-content" style="padding: 20px;">
+          <h3 style="margin-top: 0;">{{ p.project_title }}</h3>
+          <p>{{ p.project_description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
